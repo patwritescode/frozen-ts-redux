@@ -1,0 +1,16 @@
+# ignore certain configs and folders - node_modules is ignored by default
+typings/
+typings.json
+.vscode/
+tsconfig.json
+coverage/
+
+# ignore the map files
+**/*.map
+
+# ignore the .ts files
+*.ts
+*.tsx
+
+# include the .d.ts files
+!*.d.ts

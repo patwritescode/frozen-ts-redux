@@ -1,0 +1,17 @@
+# ignore generated files from build process and package managers
+node_modules/
+public/**/*.bundle.*
+coverage
+build/
+**/**/__snapshots__
+
+# ignore any ts outputs
+**/*.js
+**/*.map
+**/*.d.ts
+integration-tests/src/**/*.js
+
+#ignore .vscode configuration file
+.vscode/
+.DS_Store
+*.tgz
